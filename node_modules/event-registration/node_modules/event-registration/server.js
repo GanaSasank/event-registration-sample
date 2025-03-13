@@ -41,9 +41,9 @@ app.post("/register", async (req, res) => {
 });
 
 // Simple Route for Testing
-app.get("/", (req, res) => {
-  res.send("Hello, Backend is running and connected to MongoDB!");
-});
+// app.get("/", (req, res) => {
+//   res.send("Hello, Backend is running and connected to MongoDB!");
+// });
 
 // Start Server
 const PORT = process.env.PORT || 5000;
